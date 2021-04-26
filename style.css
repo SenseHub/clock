@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.title {
+    color: yellow;
+    text-align: center;
+}
+
+#time {
+    display: flex;
+}
+
+#time div {
+    margin: 0 10px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+}
+
+#time span {
+    text-align: center;
+    display: block;
+    width: 100px;
+    height: 60px;
+    color: #fff;
+    background-color: rgb(255, 50, 80);
+    box-shadow: 0 0 0 1px #000;
+    font-size: 2.5rem;
+}
+
+#time span:nth-child(2) {
+    height: 30px;
+    padding-top: 5px;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
+    background-color: rgb(83, 64, 252);
+}
